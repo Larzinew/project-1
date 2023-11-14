@@ -16,3 +16,12 @@ const spinButton = document.querySelector('.spin-button')
 spinButton.addEventListener('click', initSpin)
 
 	/*----- functions -----*/
+function initSpin() {
+    result = [];
+    result.push(getRandomNumber(0,IMAGES.length))
+    result.push(getRandomNumber(0,IMAGES.length))
+    result.push(getRandomNumber(0,IMAGES.length))
+
+    render()
+    renderJackpot()
+}
