@@ -25,3 +25,19 @@ function initSpin() {
     render()
     renderJackpot()
 }
+//update redner views
+function render(){
+    reel1.innerHTML = result[0];
+    reel2.innerHTML = result[1];
+    reel3.innerHTML = result[2];
+}
+function renderJackpot(){
+    if (result[0] === result[1] && result[0] === result [2]){
+        win.innerText = "JACKPOT!"
+ }else{
+    win.innertext ="SPIN AGAIN"
+ }
+}
+function getRandomNumber(min, max){
+    return Math.floor(Math.random() * (max - min) + min)
+}
