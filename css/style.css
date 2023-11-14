@@ -6,6 +6,7 @@
     font-family: Helvetica;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -20,7 +21,7 @@
   
   h2 {
     text-align: center;
-    align-self: flex-start;
+
   
   }
   
@@ -31,7 +32,7 @@
   justify-items: stretch;
   align-items: center;
   align-content: center;
-  border: 1px solid black;
+  border: 15px solid black;
   padding: 20px;
   border-radius: 10px; 
   } 
@@ -42,7 +43,7 @@
     width: 30%;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: grey;
     margin: 10px;
   
   }
