@@ -1,6 +1,6 @@
 	/*----- constants -----*/
 //array of strings - image names 
-const IMAGES = [1,2,3,4]
+const IMAGES = [1,2,3]
 	/*----- state variables -----*/
 let result = [null, null,null]
 
