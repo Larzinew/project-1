@@ -30,15 +30,16 @@
   }
   
   .slot-machine {
-    width: 80%;
+    max-width: 80%;
     height: 60%;
     display: flex;
     justify-items: stretch;
     align-items: center;
     align-content: center;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px; 
     background-color:hotpink; 
+    gap: 10px;
     } 
   
   
