@@ -1,33 +1,44 @@
-Initialize variables:
-- reel1, reel2, reel3 = Arrays of symbols on each reel
-- result = Array to store the current combination
-- win = Boolean to track if the player has won 1. set to false) 2. then when matches to true 
-- Dom elements to cache 
+Welcome to the Slot Machine game!
 
-Create a function spinReels():
-- Generate random numbers to select symbols on each reel
-- Update the result array with the selected symbols
-- Display the symbols on the reels
+This simple slot machine is built using JavaScript and HTML, allowing players to spin the reels and aim for winning combinations of symbols. Here's a guide to understanding and playing the game:
 
+Game Structure:
 
-Create a function checkWin():( every function) 
-- Check for winning combinations in the result array
-- Set win to true if there's a winning combination 
+Initialization:
+reel1, reel2, reel3: Arrays containing symbols on each reel.
+result: Array storing the current combination of symbols.
+win: Boolean variable tracking the player's winning status (initially set to false).
+Cached DOM elements for smooth rendering and update of the game interface.
+Game Functions:
 
-Create a function updateDisplay():
-- Display the current result and win status
+spinReels() Function:
 
-Create event listener for:
-- Button to spin the reels:
-  - Call spinReels()
-  - Call checkWin()
-  - Call updateDisplay()
+Generates random numbers to select symbols on each reel.
+Updates the result array with the selected images.
+Displays the selected images on the reels.
+checkWin() Function:
 
-Display the buttons, reels, and result on the HTML page
+Checks for winning combinations within the result array.
+Sets the win variable to true if there's a winning combination.
+updateDisplay() Function:
 
-While the player hasn't won: (while function) 
-  - Allow the player to spin the reels
-  - Check for wins and display the result
+Responsible for updating the display with the current result and win status.
+User Interaction:
 
-If the player wins:
-- Display a win message
+Event Listeners:
+Spin Button:
+Triggers the spinReels() function to initiate the spinning animation.
+Calls the checkWin() function to check for winning combinations after spinning.
+Winning Condition:
+
+If the player achieves a winning combination:
+Displays a win message to notify the player about their win.
+How to Play:
+
+Click the spin button to start spinning the reels.
+The spinReels() function will randomly select symbols for each reel and display them.
+After spinning, the checkWin() function will determine if you've won.
+If you win, a message will appear to celebrate your victory.
+Enjoy the Game!
+
+Have fun playing the Slot Machine! Try your luck and see if you can hit the jackpot by matching winning combinations of symbols. Feel free to explore the code and make modifications to enhance your gaming experience!g

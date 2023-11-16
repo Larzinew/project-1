@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
   }
   
   body {
@@ -16,14 +18,15 @@
   h1 {
     text-align: center;
     font-size: 40px;
-    color: tan;
+    color: hotpink;
     justify-content: center;
-    margin-bottom: -2%;
+   
   }
   
   h2 {
     text-align: center;
     color: gold; 
+    margin-bottom: 20px;
   }
   
   .slot-machine {
@@ -33,42 +36,23 @@
     justify-items: stretch;
     align-items: center;
     align-content: center;
-    border: 1px solid black;
     padding: 30px;
     border-radius: 10px; 
-    background-color: tan; 
+    background-color:hotpink; 
     } 
   
   
-  #reel1 {
-    height: 20%;
-    width: 30%;
+    #reel1,
+    #reel2,
+    #reel3 {
+    height: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: black;
     margin: 10px;
-  
   }
-  
-  #reel2 {
-    height: 20%;
-    width: 30%;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-  
-  }
-  
-  #reel3 {
-    height: 20%;
-    width: 30%;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-  
-  }
+ 
   
  spin-button {
       display: flex;
@@ -90,3 +74,8 @@ button {
     border-radius: 5px;
     transition: transform 0.3s ease, background-color 0.3s ease, clip-path 0.3s ease;   
 } 
+image {
+    background-size: cover;
+    max-width: 100%; 
+    max-height: 100%;
+}
