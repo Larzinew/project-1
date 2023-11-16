@@ -20,17 +20,19 @@ While developing the slot machine, a few challenges arose, including:
 
 **How to Play**
 
+* Player presses the spin button until is a match of 3 emojis
+
+<img width="796" alt="Screenshot 2023-11-15 at 8 34 23 PM" src="https://github.com/Larzinew/project-1/assets/44786123/b2d7f9c3-501c-4b4c-9c33-2d45d2d2d5d4">
+
 <img width="792" alt="Screenshot 2023-11-15 at 8 34 11 PM" src="https://github.com/Larzinew/project-1/assets/44786123/c805f723-bc23-4521-b7ac-c3da8ae77b99">
 
 **If the player achieves a winning combination:**
-
-<img width="796" alt="Screenshot 2023-11-15 at 8 34 23 PM" src="https://github.com/Larzinew/project-1/assets/44786123/b2d7f9c3-501c-4b4c-9c33-2d45d2d2d5d4">
-<img width="796" alt="Screenshot 2023-11-15 at 8 34 46 PM" src="https://github.com/Larzinew/project-1/assets/44786123/cbc2cec5-33eb-4e9b-b5a6-008990a06c96">
-
-
 * Displays a win message to notify the player about their win.
+
+<img width="796" alt="Screenshot 2023-11-15 at 8 34 46 PM" src="https://github.com/Larzinew/project-1/assets/44786123/cbc2cec5-33eb-4e9b-b5a6-008990a06c96"
 
 * If you win, a message will appear to celebrate your victory.
 Enjoy the Game!
+
 
 Have fun playing the Slot Machine! Try your luck and see if you can hit the jackpot by matching winning combinations of symbols. Feel free to explore the code and make modifications to enhance your gaming experience!g
