@@ -1,5 +1,7 @@
 Welcome to the Slot Machine game!
 
+Game Link: https://larzinew.github.io/project-1/
+
 This application simulates a classic slot machine, allowing users to experience the thrill of spinning reels and aiming for winning combinations of symbols. The game provides an interactive interface where players can spin the reels, watch the symbols align, and determine if they've hit a winning combination.
 
 **Game Structure:**
